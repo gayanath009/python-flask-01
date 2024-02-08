@@ -31,7 +31,7 @@ def hello_world():
                            company_name='Qatar Computer Services')
 
 
-@app.route('api/jobs')
+@app.route('/api/jobs')
 def list_jobs():
   return jsonify (lst_jobs)
 
